@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Glory Akobo">
+    <meta name="description" content="Discover places and events with Xplorer.">
+
+    <meta property="og:title" content="Xplorer">
+    <meta property="og:description" content="Discovering places and events.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://glowreeflamin.github.io/wdd231/project/images/hero-image.jpeg">
+    <meta property="og:url" content="https://glowreeflamin.github.io/wdd231/project/index.html">
+    <meta name="twitter:card" content="Xplorer - Discovering places and events.">
+    <title>Location | Xplorer</title>
+
+    <link rel="shortcut icon" href="images/binoculars_630741.png" type="image/x-icon" sizes="16x16">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/location.css" media="screen">
+    <link rel="stylesheet" href="styles/index.css" media="screen">
+    <link rel="stylesheet" href="styles/nav-footer.css" media="screen">
+
+    <script src="scripts/location.js" defer></script>
+    <script src="scripts/menu-lastModified.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="top-flex">
+            <div class="logo">
+                <a href="index.html">Xplorer <sup>®</sup> </a>
+                <div id="show-menu"></div> 
+            </div>
+
+            <div class="link-flex">
+                
+                <div id="hide-menu"></div>
+                <a href="index.html">Home</a>
+                <a href="location.html" class="active2">Location</a>
+                <a href="about-us.html">About Us</a>
+                <a href="siteplan.html">Site Plan</a>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+       
+        <div class="featured-places2">
+            <h1>Discover <br> <span>Places & Events</span></h1>
+
+            <div class="place-container2"></div>
+
+            <dialog id="place-details"></dialog>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="foot-nav">
+            <p>&copy; <span id="currentyear"></span> 🌺 Glory Akobo 🌺 Nigeria</p>
+            <p id="lastmodified"></p>
+        </div>
+    </footer>
+</body>
+
+</html>

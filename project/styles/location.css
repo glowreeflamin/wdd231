@@ -1,0 +1,50 @@
+
+
+/* -----------------MAIN-----------------  */
+
+.featured-places2 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.featured-places2 h1{
+  /* padding: 20px; */
+  font-size: 1.2rem;
+  /* padding-bottom: 20px; */
+}
+
+.featured-places2 h1 span {
+    color: var(--accent-color2);
+}
+
+.place-container2 {
+    display: grid;
+    grid: auto/1fr;
+    gap: 20px;
+  }
+
+
+/* -----------------MAIN END-----------------  */
+
+
+
+
+
+
+
+
+
+/* -----------------MEDIA QUERY-----------------  */
+@media screen and (min-width: 1000px) {
+
+  .featured-places2 {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .place-container2 {
+    grid: auto/ 1fr 1fr 1fr;
+  }
+}

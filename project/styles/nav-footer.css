@@ -1,0 +1,155 @@
+/* -----------------HEADER-----------------  */
+
+header {
+    background-color: var(--primary-color);
+}
+
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo sup {
+    font-size: 1rem;
+    color: var(--accent-color2);
+}
+
+.logo a {
+    font-size: 2rem;
+    color: white;
+}
+
+#show-menu {
+    display: block;
+}
+
+#show-menu::before {
+    content: "☰";
+    color: white;
+    font-size: 30px;
+}
+
+
+.link-flex {
+    display: none;
+}
+
+/* right nav */
+.link-flex.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100vh;
+    background-color: var(--accent-color2);
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    text-align: center;
+}
+
+.link-flex a {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 4;
+    /* color: white; */
+    color: var(--primary-color);
+}
+
+.link-flex a:hover {
+    /* color: var(--accent-color2); */
+    cursor: pointer;
+}
+
+#hide-menu::before {
+    content: '✖';
+    font-size: 30px;
+    color: var(--primary-color);
+    text-align: right;
+    padding-right: 25px;
+    display: block;
+}
+
+.active2 {
+    text-decoration: underline 1.5px solid var(--primary-color);
+}
+
+/* -----------------HEADER END-----------------  */
+
+
+
+/* -----------------FOOTER-----------------  */
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    height: 90px;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+.foot-nav {
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: .8rem;
+    color: white;
+}
+
+.foot-nav p {
+    padding: 2px 0;
+}
+
+/* -----------------FOOTER END-----------------  */
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+
+    .top-flex
+    {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+  
+    .top-flex {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    #show-menu {
+      display: none;
+    }
+  
+    .link-flex {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+    }
+
+    .link-flex a {
+        color: white;
+    }
+  
+    .link-flex a:hover {
+      color: var(--accent-color2);
+      /* cursor: pointer; */
+    }
+  
+    .foot-nav {
+      font-size: 1rem;
+    }
+
+    #hide-menu {
+        display: none;
+    }
+
+    .active2 {
+        text-decoration: underline 1.5px solid var(--accent-color2);
+    }
+
+}

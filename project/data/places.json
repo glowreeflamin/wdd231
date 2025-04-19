@@ -1,0 +1,64 @@
+{
+    "places": [
+        {
+          "name": "Santorini",
+          "location": "Greece",
+          "description": "Santorini is actually a group of islands (Thira, Thirassia, Aspronissi, Palea, and Nea Kameni) and is famous for its stunning sunsets, white-washed buildings, and blue-domed churches.",
+          "imageURL": "images/santorini-greece.webp"
+        },
+        {
+          "name": "Eiffel Tower",
+          "location": "Paris, France",
+          "description": "The Eiffel Tower was initially criticized by some of France's leading artists and intellectuals for its design, but it has since become one of the most recognizable structures in the world.",
+          "imageURL": "images/effiel-tower-paris-france.webp"
+        },
+        {
+          "name": "Statue of Liberty",
+          "location": "New York, US",
+          "description": "The Statue of Liberty was a gift from France to the United States in 1886 to commemorate the centennial of the American Declaration of Independence and symbolize freedom and democracy.",
+          "imageURL": "images/statue-of-liberty-NY-us.webp"
+        },
+        {
+          "name": "Machu Picchu",
+          "location": "Peru",
+          "description": "Machu Picchu is often referred to as the \"Lost City of the Incas\" because it was largely unknown to the outside world until American historian Hiram Bingham brought it to international attention in 1911.",
+          "imageURL": "images/machu-picchu-peru.webp"
+        },
+        {
+          "name": "Taj Mahal",
+          "location": "Agra, India",
+          "description": "The Taj Mahal was built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal and is considered one of the greatest examples of Mughal architecture, combining elements from Islamic, Persian, Ottoman Turkish, and Indian architectural styles.",
+          "imageURL": "images/taj-mahal-agra-india.webp"
+        },
+        {
+          "name": "Grand Canyon",
+          "location": "Arizona, US",
+          "description": "The Grand Canyon is over 277 miles long, up to 18 miles wide, and attains a depth of over a mile (6,000 feet), showcasing nearly two billion years of Earth's geological history.",
+          "imageURL": "images/grand-canyan-arizona-us.webp"
+        },
+        {
+          "name": "Great Wall of China",
+          "location": "China",
+          "description": "The Great Wall is not a single continuous wall but a series of walls and fortifications built by various Chinese dynasties over centuries, totaling more than 13,000 miles.",
+          "imageURL": "images/great-wall-of-china-china.webp"
+        },
+        {
+          "name": "Opera House",
+          "location": "Sydney, Australia",
+          "description": "The Sydney Opera House, designed by Danish architect Jørn Utzon, has over 1 million roof tiles, which were made in Sweden and cover approximately 1.62 hectares of its roof.",
+          "imageURL": "images/opera-house-sydney-australia.webp"
+        },
+        {
+          "name": "Christ The Redeemer",
+          "location": "Rio de Janeiro, Brazil",
+          "description": "Christ the Redeemer is the largest Art Deco statue in the world, standing 98 feet tall (excluding its 26-foot pedestal) and its outstretched arms span 92 feet.",
+          "imageURL": "images/christ-the-redeemer-rio-brazil.webp"
+        },
+        {
+          "name": "Colosseum",
+          "location": "Rome, Italy",
+          "description": "Christ the Redeemer is the largest Art Deco statue in the world, standing 98 feet tall (excluding its 26-foot pedestal) and its outstretched arms span 92 feet.",
+          "imageURL": "images/colosseum-rome-italy.webp"
+        }
+    ]     
+}
